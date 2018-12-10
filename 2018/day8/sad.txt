@@ -1,1 +1,1 @@
-Instead of deleting the executable I deleted the source file. Oops.
+Instead of deleting the binary I deleted the source file. Oops.

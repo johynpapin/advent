@@ -63,7 +63,7 @@ func main() {
 		}
 
 		for _, worker := range workers {
-			if worker.TimeLeft == 0 {
+			if worker.Working && worker.TimeLeft == 0 {
 				worker.Working = false
 				steps = append(steps, worker.Producing)
 
